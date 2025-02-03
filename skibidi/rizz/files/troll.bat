@@ -4,7 +4,7 @@ IF EXIST "troll.bat.files"(
     rmdir troll.bat.files
 ) ELSE (IF EXIST "C:\Program Files\Git\" (
 git clone https://github.com/TVremote1252/troll.bat.git
-cd troll.bat\
+cd troll.bat.files
 start.bat
 
 ) ELSE (
